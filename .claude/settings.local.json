@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Bash(find /c/changwenn/git/20260327_novel_learning -type f -name *.txt -o -name *.md -o -name *.json)"
+      "Bash(find /c/changwenn/git/20260327_novel_learning -type f -name *.txt -o -name *.md -o -name *.json)",
+      "Bash(grep -E \"\\\\.\\(md|txt|json|yaml|yml\\)$\")"
     ]
   }
 }
